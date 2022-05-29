@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+	--gris: #484759;
+	--blanco: #fefefe;
+	--naranja: #FF8C00;
+	--negro:  #192228;
+}
+body {
+	background: var(--gris);
+	font-family: 'Roboto', sans-serif;
+
+}
+header {
+	border-radius: 10px;
+	height: 60px;
+}
+nav ul {
+	list-style:none;
+	margin: 0;
+	padding: 0;
+	float: left;
+
+}
+ul li {
+ 	display: inline-block;
+}
+	
+ul li a {
+	text-decoration: none;
+	color: black;
+	padding: 20px 16px;
+	display: block;
+	
+}
+ul li a:hover {
+	color: var(--naranja);
+	transition: 0.1s;
+}
+header, .main {
+	background-color: var(--blanco);
+	width:90%;
+	max-width:1000px;
+	margin: 0px auto;
+	border-radius: 0px;
+}
+header {
+	width: 100%;
+	max-width: 1430px;
+	margin-left: 445px;
+}
+article {
+	padding: 20px 30px;
+}
+.main h2, p {
+	margin: 5px;
+	padding: 10px 5px;
+	line-height: 22px;
+}
+.imagen {
+	width: 1000px;
+	height: 600px;
+}
+.main {
+	margin-right: 0px;
+	float: left;
+	margin-left: 445px;
+}
+aside {
+	float: left;
+	background: var(--negro);
+	color: white;
+	max-width: 430px;
+	margin-bottom: 20px;
+	/*Si quisieramos ocultar el contenido relacionado pondriamos visibility a hidden*/
+	/*visibility: hidden;*/
+}
+figure {
+	display: table; 
+	margin: 0px;
+}
+figure p, figure h3 {
+	margin: 0px;
+	padding: 0px 0px;
+}
+aside hr {
+	border-color: var(--naranja);
+
+}
+aside h3 {
+	color: var(--naranja);
+}
+aside a {
+	text-decoration: none;
+	color: var(--blanco);
+}
+aside a:hover {
+	text-decoration: none;
+	color: var(--naranja);
+}
+.destacados{
+	border-color: var(--blanco);
+}
